@@ -1,0 +1,833 @@
+body {
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: Josefin Sans;
+}
+/* Header */
+.container {
+    width: 1620px;
+    margin: 0 auto;
+}
+.container-secondary {
+    width: 1320px;
+    margin: 0 auto;
+}
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 83px;
+    cursor: pointer;
+}
+.topsideMenu {
+    display: flex;
+    gap: 60px;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.search, .login, .dwonArrow {
+    display: flex;
+    font-family: Josefin Sans;  
+    font-weight: 300;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    list-style: none;
+    font-size: 14px;
+    
+}
+.search {
+    border-bottom: solid 1px #D2D2D2;
+    gap: 20px;
+    padding: 0 10px;
+    padding-bottom: 0;
+}
+
+.topbarsearch{
+    border: none;
+    outline: none;
+    font-family: Josefin Sans; 
+}
+.login {
+    gap: 5px;
+}
+.dwonArrow {
+    gap: 5px;
+}
+
+/* navbar */
+
+.menu {
+    display: flex;
+    height: 60px;
+    align-items: center;
+    border-top: 1px solid #D2D2D2;
+    border-bottom: 1px solid #D2D2D2;
+}
+.nav-Menu {
+    display: flex;
+    gap: 70px;
+    color: black;
+    margin-left: 48px;
+}
+.nav-Menu a {
+    color: black;
+    font-family: Josefin Sans;  
+    font-weight: 300;
+    font-size: 18px;
+}
+
+/* hero--------------------- */
+
+.hero {
+    background-image: url("/img/hero.svg");
+    background-repeat: no-repeat;
+    height: 500px;
+    margin-top: 60px;
+    position: relative;
+}
+.hero-box {
+    width: 836px;
+    height: 196px;
+    box-shadow: 0px 4px 20px #D9D9D903;
+    backdrop-filter: blur(2px);
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 260px;
+    left: 94px;
+}
+.hero-title {
+    color: white;
+    font-family: Josefin Sans;  
+    font-weight: 600;
+    font-size: 64px;
+    letter-spacing: 0;
+    position: absolute;
+    padding: 34px 56px;            
+}
+
+/* <!-- doctor section --> */
+
+.doctorSearch {
+    margin-top: 120px;
+    height: 1006;
+    display: flex;
+    margin-left: 150px;
+    position: relative;
+}
+.search-information h2 {
+    font-size: 64px;
+    margin-top: 92px;
+    font-family: Josefin Sans;  
+    font-weight: 600;
+    position: absolute;
+}
+.doctor-pic img {
+    position: absolute;
+    right: 0;
+}
+.search-box {
+    width: 601px;
+    height: 401px;
+    background: rgb(237, 244, 250);
+    margin-top: 342px;
+    border-radius: 12px;
+}
+.search-box .form-box {
+    padding: 40px 60px;
+}
+.select-section{
+    display: flex;
+    justify-content: space-between;
+}
+.select-section a {
+    color: #646464;
+}
+.select-section li:first-child {
+    font-size: 18px;
+    font-family: Josefin Sans;
+    font-weight: 300;
+}
+.select-section li:nth-child(2) {
+    font-size: 18px;
+    font-family: Josefin Sans;
+    font-weight: 400;    
+}
+.select-section li:nth-child(3) a {
+    font-size: 18px;
+    font-family: Josefin Sans;
+    font-weight: 400;
+    color: #000000; 
+    border-bottom: 3px solid #528AC8;
+    border-radius: 2px;  
+}
+.select-section li:nth-child(4) a {
+    font-size: 18px;
+    font-family: Josefin Sans;
+    font-weight: 400;  
+}
+.search-box .form-box input {
+    width: 458px;
+    height: 64px;
+    color: #646464;
+    padding-left: 22px;
+    font-family: Josefin Sans;
+    font-weight: 300;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    background-color: #dfeaf5;
+    border-radius: 12px;
+}
+.search-name {
+    margin-top: 48px;
+}
+.location {
+    margin-top: 20px;
+}
+.form-box button {
+   width: 480px;
+   height: 64px;
+   background-color: #000000;
+   color: #FFFFFF;
+   font-family: Josefin Sans;
+   font-weight: 400;
+   font-size: 18px;
+   border-radius: 12px;
+   margin-top: 40px;
+}
+.search-box img {
+    margin-top: 80px;
+}
+
+/* <!-- doctor information section -->  */
+
+.appointments {
+    background-color: #528AC8;
+    height: 250px;
+    margin-top: 263px;
+    display: flex;   
+}
+
+.appointment-box {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.appointments .appointments-link h2{
+    color: white;
+    font-size: 30px;
+    line-height: 45px;
+    font-weight: 400;
+    margin-top: 53px;
+}
+.appointments-link li {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.appointments .appointments-link li a{
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    
+}
+
+/* right side doctor section */
+
+.appointment-box .doctor-information {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    color: white;
+    text-align: end;
+    
+}
+.appointment-box .border,
+.doctor-information h3,
+.doctor-information p,
+.doctor-information button{
+    margin: 0;
+    padding: 0;
+    
+}
+.appointment-box .doctor-information h3 {
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 0%;
+    margin-top: 47px;
+}
+
+.appointment-box .doctor-information p {
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.appointment-box .doctor-information button {
+    width: 181px;
+    height: 54px;
+    margin-top: 25px;
+    background-color: #528AC8;
+    border: 1px solid white;
+    border-radius: 30px;
+    color: white;
+    font-family: Josefin Sans;
+    font-weight: 400;
+    font-size: 16px;
+    cursor: pointer;
+}
+.appointment-box .border {
+    height: 176px;
+    border: 1px solid white;
+    margin-top: 37px;
+    margin-left: 1026px;
+    position: absolute;
+}
+
+/* hospital section ---------- */
+
+.container-secondary .container-box {
+    height: 1178px;
+    margin-top: 120px;
+    position: relative;
+}
+.container-secondary .container-box h2 {
+    color: #000000;
+    font-weight: 400;
+    font-size: 42px;
+    margin: 0;
+}
+.container-secondary .container-box .border {
+    width: 1320px;
+    border: 1px solid #D2D2D2;
+    margin-top: 42px;
+}
+
+.container-secondary .container-box .box-full {
+    display: flex;
+    /* justify-content: space-between; */
+}
+.box-full  {
+    margin-top: 42px;
+}
+.box-full .left-side .cart1 {
+    width: 538px;
+    height: 112px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #D2D2D2;
+}
+.cart1 ul :first-child {
+    font-size: 24px;
+    margin-left: 27px;
+    font-weight: 300;
+}
+.cart1 ul :last-child {
+    font-size: 18px;
+    margin-left: 27px;
+    font-weight: 300;
+    margin-top: 8px;
+}
+.cart1 :first-child {
+    margin-right: 27px;
+}
+.active {
+    color: #FFFFFF;
+    background-color: #528AC8;
+    border-radius: 12px;
+} 
+.box-full .left-side .btn button{
+
+    width: 245px;
+    height: 54px;
+    display: flex;
+    gap: 14px;
+    justify-content: center;
+    align-items: center;
+    background-color: #528AC8;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    margin-top: 60px;
+}
+
+
+
+/* right side  */
+.box-full .right-side {
+    margin-left: 60px;
+    display: none;   
+}
+.box-full .right-side.active2{
+    display: block;
+}
+.box-full .right-side h2{
+    font-size: 30px;
+    line-height: 45px;
+    font-weight: 400;
+}
+.box-full .right-side h4{
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 300;
+}
+.box-full .right-side div h4{
+    font-size: 16px;
+    font-weight: 400;
+}
+.select-btn {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    height: 83px;
+    width: 560px;
+    gap: 16px;
+    
+}
+.right-side div div button {
+    font-size: 16px;
+    font-weight: 300;
+    padding: 8px 16px 8px 16px ;
+    background-color: white;
+    border: 1px solid #D2D2D2;
+    border-radius: 30px;
+    font-family: Josefin Sans;
+}
+.find-doctor {
+    display: flex;
+    gap: 20px;
+    margin-top: 50px;
+
+}
+
+.find-doctor button {
+    padding: 19px 21px;
+    border-radius: 30px;
+    background-color: white;
+    border: 1px solid #528AC8;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Josefin Sans;
+    color: #528AC8;
+}
+.find-doctor button.active1 {
+    color: white;
+    background-color: #528AC8;
+}
+.right-side .end-box {
+    width: 722px;
+    height: 422px;
+    background-color: #F6FBFF;
+    margin-top: 185px;
+}
+.right-side .end-box .title-box{
+    width: 343px;
+    height: 333px;
+    position: relative;
+    top: 45px;
+    margin-left: 54px;
+}
+.end-box .title-box h3{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 40px;
+    
+}
+.end-box .title-box p{
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 25px;
+}
+.end-box .title-box li{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 66px;
+}
+.right-side img {
+    position: absolute;
+    right: 0;
+    bottom: 0px;    
+}
+
+
+/*hospital information cover  */
+
+.container-cover {
+    display: flex;
+    align-items: center;
+    height: 200px;
+    margin-top: 120px;
+    background-color: #528AC8;
+}
+
+.cover-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cover-items h3{
+    font-size: 30px;
+    color: white;
+    font-weight: 600;
+}
+.cover-items div button {
+    padding: 19px 60px;
+    border-radius: 30px;
+    border: 1px solid #FFFFFF;
+    background-color: #528AC8;
+    color: white;
+    font-weight: 400;
+    font-family: Josefin Sans;    
+}
+.cover-items div button.active {
+    color: #528AC8;
+    background-color: white;
+}
+.our-team {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 120px;
+    height: 570px;
+}
+
+.our-team .left-side h2{
+    margin: 0;
+    font-size: 70px;
+    font-weight: 700;
+}
+.our-team .left-side p{
+    margin: 0;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    margin-top: 40px;
+}
+.our-team .left-side li{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 66px;
+}
+.our-team .right-side2 .img1 {
+    margin-left: 70px;
+}
+.our-team .right-side2 .img2 {
+    margin-left: 93px;
+    margin-top: 30px;
+}
+.resource-center {
+    background-image: url("/img/img-cover.svg");
+    height: 400px;
+    margin-top: 120px;
+}
+.resource-center div div {
+    width: 697px;
+}
+.resource-center div div h3{
+    margin: 0;
+    font-size: 42px;
+    font-weight: 500;
+    color: white;
+    padding-top: 83px;
+}
+.resource-center div div p{
+    margin: 0;
+    font-size: 18px;
+    font-weight: 300;
+    color: #FFFFFF;
+    margin-top: 25px;
+}
+.resource-center div div button{
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+    color: #528AC8;
+    padding: 19px 40px;
+    border: 1px solid white;
+    border-radius: 30px;
+    margin-top: 60px;
+}
+
+/* <!-- hospital ranking --> */
+
+.ranking-box {
+    height: 693px;
+    margin-top: 120px;
+    display: flex;
+    /* justify-content: space-between; */
+}
+.ranking-box .ranking-left-box {
+    width: 810px;
+    background-color: #528AC8;
+    position: relative;
+}
+
+.ranking-box .ranking-left-box h3 {
+   font-size: 70px; 
+   font-weight: 700;
+   color: white;
+   margin-top: 78px;
+   margin-left: 71px;
+}
+.ranking-box .ranking-left-box p {
+   font-size: 24px; 
+   font-weight: 400;
+   color: white;
+   margin-top: 78px;
+   margin-left: 71px;
+}
+.ranking-box .ranking-left-box img {
+    position: absolute;
+    left: 706px;
+    top: 628px;
+}
+
+.ranking-box .ranking-right-box .right-1stbox {
+    height: 347px;
+    width: 810px;
+    background-color: #D2D2D2; 
+}
+.ranking-box .ranking-right-box .right-1stbox h3{
+    margin: 0;
+    padding-top: 78px;
+    margin-left: 63px;
+    font-size: 30px;
+    font-weight: 400;
+}
+.ranking-box .ranking-right-box .right-1stbox p{
+    margin: 0;
+    padding-top: 30px;
+    margin-left: 63px;
+    font-size: 18px;
+    font-weight: 300;
+}
+.ranking-box .ranking-right-box .right-1stbox img{
+    margin: 0;
+    padding-top: 116px;
+    margin-left: 730px;
+    font-size: 18px;
+    font-weight: 300;
+}
+.ranking-right-box .right-2ndbox {
+    width: 810px;
+    display: flex;
+}
+.ranking-right-box .right-2ndbox .box-1st{
+    width: 405px;
+    height: 346px;
+    background-color: black;
+    color: white;
+}
+.ranking-right-box .right-2ndbox .box-1st h3{
+    margin: 0;
+    font-size: 30px;
+    font-weight: 300;
+    margin-top: 58px;
+    margin-left: 63px;
+}
+.ranking-right-box .right-2ndbox .box-1st p{
+    margin: 0;
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 30px;
+    margin-left: 63px;
+    margin-right: 87px;
+    line-height: 30px
+}
+.ranking-right-box .right-2ndbox .box-1st img {
+    margin: 0;
+    margin-top: 13px;
+    margin-left: 329px;
+}
+/* 2nd */
+
+.ranking-right-box .right-2ndbox .box-2nd{
+    width: 405px;
+    height: 346px;
+    background-color: #7CC7B9;
+    color: #000000;
+}
+.ranking-right-box .right-2ndbox .box-2nd h3{
+    margin: 0;
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 58px;
+    margin-left: 59px;
+    margin-right: 121px;
+}
+.ranking-right-box .right-2ndbox .box-2nd p{
+    margin: 0;
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 30px;
+    margin-left: 59px;
+    margin-right: 87px;
+    line-height: 30px
+}
+.ranking-right-box .right-2ndbox .box-2nd img {
+    margin: 0;
+    margin-top: 13px;
+    margin-left: 329px;
+}
+
+/* <!-- Why choose mediversalhospital --> */
+
+.choose-box{
+    margin-top: 120px;
+    display: flex;
+}
+.choose-box .choose-left {
+    width: 427px;
+}
+.choose-box .choose-left h2 {
+    margin: 0;
+    font-size: 70px;
+    font-weight: 400;
+}
+.choose-box .choose-left h3 {
+    margin: 0;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 150%;
+}
+.choose-box .choose-left button {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    padding: 15px 40px;
+    border: 1px solid white;
+    border-radius: 30px;
+    background-color: #528AC8;
+    gap: 10px;
+    margin-top: 59px;
+}
+.choose-box .choose-left button a{
+    color: white;
+}
+/* choose-right */
+
+.choose-box .choose-right {
+    width: 753px;
+    margin-left: 140px;
+}
+/* foter */
+/* footer left  */
+
+.footer-box {
+    padding-top: 120px;
+    display: flex;
+}
+.footer-box .footer-left {
+    width: 254px;
+    height: 675px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.footer-box .footer-left h4{
+    margin: 0;
+    font-size: 18px;
+    font-weight: 500;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+.footer-box .footer-left p{
+    font-size: 18px;
+    font-weight: 300;
+    color: #FFFFFF;
+}
+/* footer-middle  */
+
+.footer-box .footer-middle {
+    width: 254px;
+    height: 675px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin-left: 195px;
+}
+.footer-box .footer-middle h4{
+    margin: 0;
+    font-size: 18px;
+    font-weight: 500;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+.footer-box .footer-middle p{
+    font-size: 18px;
+    font-weight: 300;
+    color: #FFFFFF;
+}
+/* footer-right */
+
+.footer-box .footer-right {
+    width: 434px;
+    margin-left: 195px;
+}
+
+.footer-box .footer-right h4{
+    margin: 0;
+    font-size: 18px;
+    font-weight: 500;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+.footer-box .footer-right .footer-icon {
+    display: flex;
+    gap: 29px;
+    margin-bottom: 60px;
+}
+.footer-box .footer-right p {
+    font-size: 18px;
+    font-weight: 300;
+    color: #FFFFFF;
+    line-height: 30px;
+}
+.footer-box .footer-right button {
+    padding: 19px 40px;
+    border-radius: 30px;
+    border: none;
+    color: #528AC8;
+    margin-top: 20px;
+    font-size: 16px;
+    font-family: Josefin Sans;
+    margin-bottom: 60px;
+}
+.footer-box .footer-right div {
+    display: flex;
+    gap: 20px;
+}
+
+/* copyright */
+
+.copyright-box {
+    height: 83px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 300;
+}
+.copyright-box .left-copy {
+    display: flex;
+    gap: 60px;
+}
