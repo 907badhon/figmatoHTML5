@@ -90,7 +90,7 @@ a{
 /* hero--------------------- */
 
 .hero {
-    background-image: url("/img/hero.svg");
+    background-image: url("img/hero.svg");
     background-repeat: no-repeat;
     height: 500px;
     margin-top: 60px;
@@ -535,7 +535,7 @@ a{
     margin-top: 30px;
 }
 .resource-center {
-    background-image: url("/img/img-cover.svg");
+    background-image: url("img/img-cover.svg");
     height: 400px;
     margin-top: 120px;
 }
